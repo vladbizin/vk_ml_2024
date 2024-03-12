@@ -90,4 +90,4 @@ test = Pool(
 
 model.fit(train, eval_set=val)
 
-model.score(test)
+print(model.score(test))
